@@ -18,6 +18,7 @@ end
   birthday_kids.each do |name, age|
     if age < 13
     puts "Happy Birthday #{name}! You are now #{age} years old!"
+  else puts "You are too old for this"
   end
   end
 end
